@@ -15,7 +15,7 @@ export default function TermsPage() {
   usePageMeta({
     title: 'Terms & Conditions — Convyo',
     description:
-      'Terms and Conditions for the Riding Verse (RV) / Convyo mobile application, operated by Riding Verse Private Limited and Explorations and Innovations Technologies Private Limited.',
+      'Terms and Conditions for the Convyo mobile application, operated by Convyo Private Limited.',
     canonical: 'https://convyo.app/terms',
   });
 
@@ -32,7 +32,7 @@ export default function TermsPage() {
               Conditions
             </h1>
             <p>
-              These Terms govern your use of the Riding Verse (RV) mobile application and the Convyo platform, operated by Riding Verse Private Limited and Explorations and Innovations Technologies Private Limited.
+              These Terms govern your use of the Convyo mobile application and platform, operated by Convyo Private Limited.
             </p>
             <div className="pagehead__meta">
               <span>

@@ -10,7 +10,7 @@ export default function Footer({ minimal = false }) {
         <div className="footer__base">
           <div className="footer__base-in">
             <div>
-              © {year} Riding Verse Pvt. Ltd. · Move as one
+              © {year} Convyo Pvt. Ltd. · Move as one
             </div>
             <nav>
               <Link to="/terms">Terms</Link>
@@ -35,7 +35,7 @@ export default function Footer({ minimal = false }) {
           </div>
           <p>Live convoy riding for motorcycle groups. Move as one.</p>
           <div className="footer__legal-entity">
-            <div className="label">Riding Verse Private Limited</div>
+            <div className="label">Convyo Private Limited</div>
             <address>
               Gali Sangam Wali, Bhagat Singh Colony,
               <br />
@@ -87,7 +87,7 @@ export default function Footer({ minimal = false }) {
 
       <div className="footer__base">
         <div className="footer__base-in">
-          <div>© {year} Riding Verse Pvt. Ltd. · Move as one</div>
+          <div>© {year} Convyo Pvt. Ltd. · Move as one</div>
           <nav>
             <Link to="/terms">Terms</Link>
             <Link to="/privacy">Privacy</Link>

@@ -15,7 +15,7 @@ export default function PrivacyPage() {
   usePageMeta({
     title: 'Privacy Policy — Convyo',
     description:
-      'How Riding Verse Private Limited collects, uses, shares and protects personal data in the Riding Verse (RV) / Convyo mobile application.',
+      'How Convyo Private Limited collects, uses, shares and protects personal data in the Convyo mobile application.',
     canonical: 'https://convyo.app/privacy',
   });
 
@@ -37,7 +37,7 @@ export default function PrivacyPage() {
                 Last updated · <b>27 May 2026</b>
               </span>
               <span>
-                Controller · <b>Riding Verse Pvt. Ltd.</b>
+                Controller · <b>Convyo Pvt. Ltd.</b>
               </span>
               <span>
                 Framework · <b>DPDP Act · IT Act 2000</b>

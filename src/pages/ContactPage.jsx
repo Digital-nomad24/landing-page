@@ -7,7 +7,7 @@ export default function ContactPage() {
   usePageMeta({
     title: 'Contact — Convyo',
     description:
-      'Get in touch with the Convyo / Riding Verse team — support, safety, partnerships and press. Riding Verse Private Limited, Sirsa, Haryana, India.',
+      'Get in touch with the Convyo team — support, safety, partnerships and press. Convyo Private Limited, Sirsa, Haryana, India.',
     canonical: 'https://convyo.app/contact',
   });
 
@@ -26,7 +26,7 @@ export default function ContactPage() {
             <p>Support questions, safety reports, club partnerships or press — pick the channel that fits and we will come back to you.</p>
             <div className="pagehead__meta">
               <span>
-                Company · <b>Riding Verse Pvt. Ltd.</b>
+                Company · <b>Convyo Pvt. Ltd.</b>
               </span>
               <span>
                 Base · <b>Sirsa, Haryana</b>
@@ -45,7 +45,7 @@ export default function ContactPage() {
             </div>
             <h3>Head office</h3>
             <address>
-              <strong style={{ color: '#E8EBEF' }}>Riding Verse Private Limited</strong>
+              <strong style={{ color: '#E8EBEF' }}>Convyo Private Limited</strong>
               <br />
               Gali Sangam Wali, Bhagat Singh Colony,
               <br />
@@ -124,8 +124,7 @@ export default function ContactPage() {
                 Drop us a line
               </h2>
               <p style={{ color: '#8A939E', maxWidth: 520, margin: '0 0 30px', lineHeight: 1.65 }}>
-                Handled by Netlify Forms — submissions land in your Netlify dashboard under{' '}
-                <b style={{ color: '#E8EBEF' }}>Forms → contact</b>, with no server to run.
+                Write to the Convyo crew. We reply to most messages within one to two working days.
               </p>
 
               <form
