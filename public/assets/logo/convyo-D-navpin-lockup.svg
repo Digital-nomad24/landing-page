@@ -1,0 +1,7 @@
+<svg viewBox="0 0 620 170" width="620" height="170" xmlns="http://www.w3.org/2000/svg">
+  
+  <defs><linearGradient id="lg59g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#35E8CE"></stop><stop offset=".52" stop-color="#00D1B2"></stop><stop offset="1" stop-color="#159BDD"></stop></linearGradient></defs>
+  <g transform="translate(6 21)"><path d="M48,80 L64,110 L80,80 Z" fill="url(#lg59g)"></path><circle cx="64" cy="54" r="34" fill="none" stroke="url(#lg59g)" stroke-width="12"></circle><path d="M56,40 L56,70 L84,55 Z" fill="#0C1524"></path></g>
+  <text x="160" y="96" font-family="Oswald, &#39;Arial Narrow&#39;, Arial, sans-serif" font-weight="700" font-size="72" letter-spacing="2" fill="#0C1524">CONV<tspan fill="#00D1B2">Y</tspan>O</text>
+  <text x="163" y="132" font-family="&#39;Courier New&#39;, monospace" font-size="17" letter-spacing="9" fill="#5c6470">MOVE AS ONE</text>
+</svg>

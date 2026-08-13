@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /thanks.html
+
+# Replace with your production domain once the custom domain is attached.
+Sitemap: https://convyo.app/sitemap.xml

@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python *)",
+      "Bash(node --check assets/js/site.js)",
+      "PowerShell(Get-ChildItem \"C:\\\\Users\\\\naksh\\\\landing-page\" -Recurse -File | Measure-Object -Property Length -Sum | Select-Object @{n='Files';e={$_.Count}},@{n='TotalKB';e={[math]::Round\\($_.Sum/1KB\\)}})"
+    ]
+  }
+}

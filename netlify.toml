@@ -1,0 +1,61 @@
+########################################################################
+# Convyo — Netlify configuration
+# Vite + React SPA. Build output goes to dist/.
+########################################################################
+
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+########################################################################
+# Pretty URLs — legacy .html paths still work via React Router
+########################################################################
+
+[[redirects]]
+  from = "/legal/terms"
+  to = "/terms"
+  status = 301
+
+[[redirects]]
+  from = "/legal/privacy"
+  to = "/privacy"
+  status = 301
+
+[[redirects]]
+  from = "/support"
+  to = "/contact"
+  status = 301
+
+# SPA fallback — must be last
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+########################################################################
+# Headers
+########################################################################
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "SAMEORIGIN"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "geolocation=(), camera=(), microphone=(), interest-cohort=()"
+    Content-Security-Policy = "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; form-action 'self'; frame-ancestors 'self'; base-uri 'self'"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=3600, must-revalidate"
+
+[[headers]]
+  for = "/assets/badges/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
+
+[[headers]]
+  for = "/assets/logo/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
